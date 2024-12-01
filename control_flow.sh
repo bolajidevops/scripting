@@ -42,7 +42,7 @@ elif [[ "$choice" == "partial" ]]; then
     echo "$number x $i = $result"
   done
 
-else
+ielse
   # Invalid choice
   echo "Error: Please enter 'full' or 'partial'."
   exit 1
